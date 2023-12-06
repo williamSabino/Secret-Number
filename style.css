@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,600&display=swap');
+
+:root{
+    --font-principal:'Montserrat', sans-serif;
+
+    --cor-Principal: #9400FF ;
+    --cor-Secundaria: #E4F1FF;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: var(--font-principal);
+    background-color: var(--cor-Principal);
+    color: var(--cor-Secundaria);
+    padding-top: 25vh;
+}
+
+.title{
+    font-size: 3rem;
+}
+
+.container p:nth-child(1){
+    font-size: 1.3rem;
+    margin-top: 2rem;
+}
+
+.numero-descrito{
+    margin: 1rem 0;
+    padding: 15px;
+    font-size: 5rem;
+    border: solid 1px var(--cor-Secundaria);
+}
+
+.container p:nth-child(2){
+    margin-top: 2rem;
+}
+
+input[type="number"]{
+    width: 50px;
+}
+
+input[type="button"]{
+    padding: 5px;
+    border: none;
+    background-color: var(--cor-Secundaria);
+    border-radius: 5px;
+}
