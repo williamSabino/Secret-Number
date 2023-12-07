@@ -1,5 +1,5 @@
 let menorNumero = 1;
-let maiorNumero = 3;
+let maiorNumero = 1000;
 let numeroSecreto = numeroAleatorio();
 
 function numeroAleatorio() {
@@ -8,6 +8,7 @@ function numeroAleatorio() {
 
 const menor = document.getElementById('menor-numero');
 const maior = document.getElementById('maior-numero');
+
 
 menor.innerHTML = menorNumero;
 maior.innerHTML = maiorNumero;

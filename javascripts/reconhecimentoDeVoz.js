@@ -7,13 +7,7 @@ recognition.start();
 
 recognition.addEventListener("result", (event) => {
     let numeroFalado = event.results[0][0].transcript;
-    exibirNaTela(numeroFalado);
-    CompararNumeros(numeroFalado);
+    validarChute(numeroFalado);
 });
 
-function exibirNaTela(numeroFalado) {
-    const num = parseInt(numeroFalado);
-    if (!isNaN(num)) {
-        containerNumeroDescrito.innerText = `${num}`;
-    }
-};
+
