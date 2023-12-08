@@ -10,4 +10,5 @@ recognition.addEventListener("result", (event) => {
     validarChute(numeroFalado);
 });
 
+recognition.addEventListener("end", () => recognition.start());
 

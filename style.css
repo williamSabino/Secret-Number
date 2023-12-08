@@ -49,3 +49,22 @@ input[type="button"]{
     background-color: var(--cor-Secundaria);
     border-radius: 5px;
 }
+
+h2{
+    margin-top: 5%;
+    font-size: 4rem;
+}
+
+h3{
+    margin-top: 2%;
+    font-size: 3rem;
+}
+
+input[value="Reiniciar"]{
+    cursor: pointer;
+    width: 300px;
+    height: 30px;
+    background-color: var(--cor-Secundaria);
+    margin-top: 1rem;
+    
+}
